@@ -16,7 +16,7 @@ func main() {
 	debug := flag.Bool("debug", false, "run with support for debuggers")
 	flag.Parse()
 	err := providerserver.Serve(context.Background(), provider.New(version), providerserver.ServeOpts{
-		Address: "registry.opentofu.org/pleme-io/opadmin",
+		Address: "registry.opentofu.org/agoodkind/opadmin",
 		Debug:   *debug,
 	})
 	if err != nil {

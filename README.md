@@ -12,7 +12,7 @@ Install the provider through a filesystem mirror until a registry listing become
 terraform {
   required_providers {
     opadmin = {
-      source = "registry.opentofu.org/pleme-io/opadmin"
+      source = "registry.opentofu.org/agoodkind/opadmin"
     }
   }
 }
